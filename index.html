@@ -465,7 +465,12 @@
                             <p>
                                 신부 혼주 송XX <br> 5454-5432-1098 | 농협은행
                                 <button class="copy-button" onclick="copyToClipboard('brideAccount', 'bride-honju')">복사하기</button>
-                            </p>                        </div>
+                            </p>         
+                            <p>
+                                신부 혼주 송XX <br> 5454-5432-1099 | 농협은행
+                                <button class="copy-button" onclick="copyToClipboard('brideAccount', 'bride-honju2')">복사하기</button>
+                            </p>                    
+                        </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
                         </div>
@@ -499,6 +504,8 @@ function getAccountNumber(accountType) {
       return '9876-5432-1098';
     case 'bride-honju':
       return '5454-5432-1098';
+      case 'bride-honju2':
+      return '5454-5432-1099';
     default:
       return '';
   }
