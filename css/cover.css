@@ -228,7 +228,7 @@ header {
 
 .section2-title {
   margin-top: 1em;
-  color: #fff;
+  color: #333;
   text-shadow: none;
 }
 
@@ -236,6 +236,7 @@ header {
   font-family: 'MaruBuri-Regular';
   line-height: 1.5em;
   font-size: 1.35rem;
+   color: #fff;
   position: relative;
 }
 
